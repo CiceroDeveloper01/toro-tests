@@ -1,0 +1,11 @@
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/bin/Debug/net8.0/Toro-Testes.Contracts.deps.json
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/bin/Debug/net8.0/Toro-Testes.Contracts.dll
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/bin/Debug/net8.0/Toro-Testes.Contracts.pdb
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/Toro-Testes.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/Toro-Testes.Contracts.AssemblyInfoInputs.cache
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/Toro-Testes.Contracts.AssemblyInfo.cs
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/Toro-Testes.Contracts.csproj.CoreCompileInputs.cache
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/Toro-Testes.Contracts.dll
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/refint/Toro-Testes.Contracts.dll
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/Toro-Testes.Contracts.pdb
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/ref/Toro-Testes.Contracts.dll

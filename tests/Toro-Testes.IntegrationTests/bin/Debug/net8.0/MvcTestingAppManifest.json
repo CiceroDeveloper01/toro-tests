@@ -1,0 +1,9 @@
+{
+  "Toro-Testes.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/cicero\/projects\/toro-invest\/src\/Toro-Testes.Api",
+  "Toro-Testes.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/cicero\/projects\/toro-invest\/src\/Toro-Testes.Application",
+  "Toro-Testes.BuildingBlocks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/cicero\/projects\/toro-invest\/src\/Toro-Testes.BuildingBlocks",
+  "Toro-Testes.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/cicero\/projects\/toro-invest\/src\/Toro-Testes.Contracts",
+  "Toro-Testes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/cicero\/projects\/toro-invest\/src\/Toro-Testes.Domain",
+  "Toro-Testes.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/cicero\/projects\/toro-invest\/src\/Toro-Testes.Infrastructure",
+  "Toro-Testes.Worker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/cicero\/projects\/toro-invest\/src\/Toro-Testes.Worker"
+}

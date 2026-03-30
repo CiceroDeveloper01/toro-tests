@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Toro.Testes.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Toro-Testes.BuildingBlocks\Toro-Testes.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\Toro-Testes.Contracts\Toro-Testes.Contracts.csproj" />
+    <ProjectReference Include="..\Toro-Testes.Domain\Toro-Testes.Domain.csproj" />
+  </ItemGroup>
+</Project>

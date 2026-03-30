@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Toro-Testes.Contracts/1.0.0": {
+        "runtime": {
+          "Toro-Testes.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Toro-Testes.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

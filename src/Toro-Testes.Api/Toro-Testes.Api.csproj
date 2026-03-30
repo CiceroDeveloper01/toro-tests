@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>Toro.Testes.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.14" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Toro-Testes.BuildingBlocks\Toro-Testes.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\Toro-Testes.Contracts\Toro-Testes.Contracts.csproj" />
+    <ProjectReference Include="..\Toro-Testes.Domain\Toro-Testes.Domain.csproj" />
+    <ProjectReference Include="..\Toro-Testes.Application\Toro-Testes.Application.csproj" />
+    <ProjectReference Include="..\Toro-Testes.Infrastructure\Toro-Testes.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Toro.Testes.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Toro-Testes.BuildingBlocks\Toro-Testes.BuildingBlocks.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/cicero/projects/toro-invest/src/Toro-Testes.Application/Toro-Testes.Application.csproj": {}
+  },
+  "projects": {
+    "/home/cicero/projects/toro-invest/src/Toro-Testes.Application/Toro-Testes.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cicero/projects/toro-invest/src/Toro-Testes.Application/Toro-Testes.Application.csproj",
+        "projectName": "Toro-Testes.Application",
+        "projectPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.Application/Toro-Testes.Application.csproj",
+        "packagesPath": "/tmp/dotnet/.nuget/packages/",
+        "outputPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/tmp/dotnet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/Toro-Testes.BuildingBlocks.csproj": {
+                "projectPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/Toro-Testes.BuildingBlocks.csproj"
+              },
+              "/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/Toro-Testes.Contracts.csproj": {
+                "projectPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/Toro-Testes.Contracts.csproj"
+              },
+              "/home/cicero/projects/toro-invest/src/Toro-Testes.Domain/Toro-Testes.Domain.csproj": {
+                "projectPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.Domain/Toro-Testes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/Toro-Testes.BuildingBlocks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/Toro-Testes.BuildingBlocks.csproj",
+        "projectName": "Toro-Testes.BuildingBlocks",
+        "projectPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/Toro-Testes.BuildingBlocks.csproj",
+        "packagesPath": "/tmp/dotnet/.nuget/packages/",
+        "outputPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/tmp/dotnet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/Toro-Testes.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/Toro-Testes.Contracts.csproj",
+        "projectName": "Toro-Testes.Contracts",
+        "projectPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/Toro-Testes.Contracts.csproj",
+        "packagesPath": "/tmp/dotnet/.nuget/packages/",
+        "outputPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/tmp/dotnet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/cicero/projects/toro-invest/src/Toro-Testes.Domain/Toro-Testes.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cicero/projects/toro-invest/src/Toro-Testes.Domain/Toro-Testes.Domain.csproj",
+        "projectName": "Toro-Testes.Domain",
+        "projectPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.Domain/Toro-Testes.Domain.csproj",
+        "packagesPath": "/tmp/dotnet/.nuget/packages/",
+        "outputPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/tmp/dotnet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/Toro-Testes.BuildingBlocks.csproj": {
+                "projectPath": "/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/Toro-Testes.BuildingBlocks.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

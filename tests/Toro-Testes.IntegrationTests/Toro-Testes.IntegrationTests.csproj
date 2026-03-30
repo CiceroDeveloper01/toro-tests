@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Toro.Testes.IntegrationTests</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.12.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.14" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="Npgsql" Version="8.0.6" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+    <PackageReference Include="Testcontainers.PostgreSql" Version="3.9.0" />
+    <PackageReference Include="Testcontainers.RabbitMq" Version="3.9.0" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="6.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Toro-Testes.BuildingBlocks\Toro-Testes.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\..\src\Toro-Testes.Contracts\Toro-Testes.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Toro-Testes.Domain\Toro-Testes.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Toro-Testes.Application\Toro-Testes.Application.csproj" />
+    <ProjectReference Include="..\..\src\Toro-Testes.Infrastructure\Toro-Testes.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Toro-Testes.Api\Toro-Testes.Api.csproj" />
+    <ProjectReference Include="..\..\src\Toro-Testes.Worker\Toro-Testes.Worker.csproj" />
+  </ItemGroup>
+</Project>
