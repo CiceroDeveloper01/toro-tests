@@ -97,7 +97,7 @@ public sealed class IntegrationTestFixture : IAsyncLifetime
         var builder = Host.CreateApplicationBuilder();
         builder.Configuration.AddInMemoryCollection(settings);
         builder.Services.AddApplication();
-        builder.Services.AddInfrastructure(builder.Configuration, "Toro-Testes.Worker.Tests");
+        builder.Services.AddInfrastructure(builder.Configuration, "Toro-Testes.Worker.Tests", includeAuth: false);
         builder.Services.AddHostedService<InvestmentOrderCreatedConsumer>();
 
         _workerHost = builder.Build();

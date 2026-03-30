@@ -10,3 +10,4 @@
 /home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/obj/Debug/net8.0/refint/Toro-Testes.BuildingBlocks.dll
 /home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/obj/Debug/net8.0/Toro-Testes.BuildingBlocks.pdb
 /home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/obj/Debug/net8.0/ref/Toro-Testes.BuildingBlocks.dll
+/home/cicero/projects/toro-invest/src/Toro-Testes.BuildingBlocks/obj/Debug/net8.0/Toro-Testes.BuildingBlocks.sourcelink.json

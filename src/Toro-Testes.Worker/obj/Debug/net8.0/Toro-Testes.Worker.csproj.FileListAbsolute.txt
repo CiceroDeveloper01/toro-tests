@@ -93,3 +93,4 @@
 /home/cicero/projects/toro-invest/src/Toro-Testes.Worker/obj/Debug/net8.0/Toro-Testes.Worker.pdb
 /home/cicero/projects/toro-invest/src/Toro-Testes.Worker/obj/Debug/net8.0/Toro-Testes.Worker.genruntimeconfig.cache
 /home/cicero/projects/toro-invest/src/Toro-Testes.Worker/obj/Debug/net8.0/ref/Toro-Testes.Worker.dll
+/home/cicero/projects/toro-invest/src/Toro-Testes.Worker/obj/Debug/net8.0/Toro-Testes.Worker.sourcelink.json

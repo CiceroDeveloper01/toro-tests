@@ -11,7 +11,7 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure(builder.Configuration, "Toro-Testes.Worker");
+builder.Services.AddInfrastructure(builder.Configuration, "Toro-Testes.Worker", includeAuth: false);
 builder.Services.AddHostedService<InvestmentOrderCreatedConsumer>();
 builder.Logging.AddSerilog(Log.Logger);
 

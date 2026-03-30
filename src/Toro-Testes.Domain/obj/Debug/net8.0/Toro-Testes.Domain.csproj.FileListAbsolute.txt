@@ -13,3 +13,4 @@
 /home/cicero/projects/toro-invest/src/Toro-Testes.Domain/obj/Debug/net8.0/refint/Toro-Testes.Domain.dll
 /home/cicero/projects/toro-invest/src/Toro-Testes.Domain/obj/Debug/net8.0/Toro-Testes.Domain.pdb
 /home/cicero/projects/toro-invest/src/Toro-Testes.Domain/obj/Debug/net8.0/ref/Toro-Testes.Domain.dll
+/home/cicero/projects/toro-invest/src/Toro-Testes.Domain/obj/Debug/net8.0/Toro-Testes.Domain.sourcelink.json

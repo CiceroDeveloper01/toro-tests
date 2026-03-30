@@ -20,7 +20,7 @@ namespace Toro.Testes.Infrastructure.DependencyInjection;
 
 public static class InfrastructureServiceCollectionExtensions
 {
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration, string serviceName)
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration, string serviceName, bool includeAuth = true)
     {
         services.AddToroBuildingBlocks();
         services.Configure<JwtOptions>(configuration.GetSection(JwtOptions.SectionName));
@@ -50,30 +50,33 @@ public static class InfrastructureServiceCollectionExtensions
             .AddDbContextCheck<AppDbContext>("postgresql")
             .AddCheck<RabbitMqHealthCheck>("rabbitmq");
 
-        var jwtOptions = configuration.GetSection(JwtOptions.SectionName).Get<JwtOptions>() ?? new JwtOptions();
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SecretKey));
-
-        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options =>
-            {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateIssuerSigningKey = true,
-                    ValidateLifetime = true,
-                    ValidIssuer = jwtOptions.Issuer,
-                    ValidAudience = jwtOptions.Audience,
-                    IssuerSigningKey = key,
-                    ClockSkew = TimeSpan.Zero
-                };
-            });
-
-        services.AddAuthorization(options =>
+        if (includeAuth)
         {
-            options.AddPolicy(ApplicationConstants.Policies.AdminOnly, policy => policy.RequireRole(ApplicationConstants.Roles.Admin));
-            options.AddPolicy(ApplicationConstants.Policies.InvestorAccess, policy => policy.RequireRole(ApplicationConstants.Roles.Investor, ApplicationConstants.Roles.Admin));
-        });
+            var jwtOptions = configuration.GetSection(JwtOptions.SectionName).Get<JwtOptions>() ?? new JwtOptions();
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SecretKey));
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidateLifetime = true,
+                        ValidIssuer = jwtOptions.Issuer,
+                        ValidAudience = jwtOptions.Audience,
+                        IssuerSigningKey = key,
+                        ClockSkew = TimeSpan.Zero
+                    };
+                });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy(ApplicationConstants.Policies.AdminOnly, policy => policy.RequireRole(ApplicationConstants.Roles.Admin));
+                options.AddPolicy(ApplicationConstants.Policies.InvestorAccess, policy => policy.RequireRole(ApplicationConstants.Roles.Investor, ApplicationConstants.Roles.Admin));
+            });
+        }
 
         return services;
     }

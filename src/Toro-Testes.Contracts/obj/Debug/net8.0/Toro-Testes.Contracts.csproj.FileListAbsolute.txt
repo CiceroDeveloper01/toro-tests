@@ -9,3 +9,4 @@
 /home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/refint/Toro-Testes.Contracts.dll
 /home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/Toro-Testes.Contracts.pdb
 /home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/ref/Toro-Testes.Contracts.dll
+/home/cicero/projects/toro-invest/src/Toro-Testes.Contracts/obj/Debug/net8.0/Toro-Testes.Contracts.sourcelink.json

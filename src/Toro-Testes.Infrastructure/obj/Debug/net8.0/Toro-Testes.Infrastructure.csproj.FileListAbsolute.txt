@@ -21,3 +21,4 @@
 /home/cicero/projects/toro-invest/src/Toro-Testes.Infrastructure/obj/Debug/net8.0/Toro-Testes.Infrastructure.pdb
 /home/cicero/projects/toro-invest/src/Toro-Testes.Infrastructure/obj/Debug/net8.0/Toro-Testes.Infrastructure.genruntimeconfig.cache
 /home/cicero/projects/toro-invest/src/Toro-Testes.Infrastructure/obj/Debug/net8.0/ref/Toro-Testes.Infrastructure.dll
+/home/cicero/projects/toro-invest/src/Toro-Testes.Infrastructure/obj/Debug/net8.0/Toro-Testes.Infrastructure.sourcelink.json
